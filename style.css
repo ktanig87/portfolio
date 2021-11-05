@@ -1,3 +1,7 @@
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
 .hero {
     background-image: url(https://i0.wp.com/www.nationalparkusa.com/wp-content/uploads/2016/10/Grand-Canyon-National-Park.jpg?fit=1920%2C1080&ssl=1);
     background-position: center;
