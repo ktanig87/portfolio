@@ -32,6 +32,10 @@ a:active { text-decoration: none; }
     color: white;
 }
 
+.skill
+{
+    height: 7em;
+}
 .unknown {
     background-image: url('./assets/20210718_084745.jpg');
     background-position: center;
@@ -52,3 +56,25 @@ a:active { text-decoration: none; }
     background-color: rgba(9, 7, 53, 0.7);
     z-index: -1;
 }
+/*
+.contact {
+    background-image: url('./assets/20210716_182511.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+.contact::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(9, 7, 53, 0.7);
+    z-index: -1;
+}
+*/
