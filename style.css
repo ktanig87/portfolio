@@ -29,14 +29,17 @@ a:active { text-decoration: none; }
 }
 
 .social-icon{
-    color: white;
+    color: white;    
+}
+.social-icon:hover{
+    color:rgba(126, 125, 146, 0.7);
 }
 
 .skill
 {
     height: 7em;
 }
-.unknown {
+.projectdiv {
     background-image: url('./assets/20210718_084745.jpg');
     background-position: center;
     background-size: cover;
@@ -46,7 +49,7 @@ a:active { text-decoration: none; }
     z-index: 2;
 }
 
-.unknown::after {
+.projectdiv::after {
     content: "";
     width: 100%;
     height: 100%;
@@ -56,6 +59,19 @@ a:active { text-decoration: none; }
     background-color: rgba(9, 7, 53, 0.7);
     z-index: -1;
 }
+
+.projectbadgelt{
+    opacity: .88;
+}
+.projectbadgelt:hover{
+    opacity: .44;
+}
+
+.projectbadgetransparent:hover{
+    opacity: .44;
+}
+
+
 /*
 .contact {
     background-image: url('./assets/20210716_182511.jpg');
